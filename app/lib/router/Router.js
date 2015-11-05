@@ -34,7 +34,9 @@ Router.route('/kamanuV6',{
   name: 'KamanuV6'
 });
 
-
+Router.route('/about',{
+  name: 'About'
+});
 
 Router.route('/stuff/:_id', {
   name: 'EditStuff',
