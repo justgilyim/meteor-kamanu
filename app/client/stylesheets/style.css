@@ -1,5 +1,7 @@
 body {
   padding-top: 81px;  /* Move body of page below navbar. */
+  margin: 0px;
+  padding-bottom: 0px;
 }
 
 .navbar-brand {
@@ -30,6 +32,27 @@ body {
   height: 385px;
 }
 
+.pueo{
+  background-image: url('/images/cover-pueo-page.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+
+.aukahi{
+  background-image: url('/images/cover-aukahi.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+
+.kamanuV6{
+  background-image: url('/images/cover-v6-page.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 385px;
+}
+
 .tagline {
   background-color: black;
   height: 131px;
@@ -43,6 +66,8 @@ body {
   font-weight: 700;
   margin: 0px;
   padding-top:30px;
-}body {
+}
+
+body {
   padding-top: 70px;  /* Move body of page below navbar. */
 }
